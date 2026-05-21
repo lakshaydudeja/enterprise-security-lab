@@ -1,16 +1,30 @@
 # Enterprise Security Lab
 
 ## Overview
-This project documents my enterprise-style cybersecurity home lab built using VMware Workstation. The lab is designed to simulate a small corporate network with firewall routing, Active Directory, endpoint logging, SIEM monitoring, and basic attack/testing workflows.
+This project documents an enterprise-style cybersecurity home lab built using VMware Workstation. The lab is designed to simulate a small corporate network with firewall routing, Active Directory, endpoint logging, SIEM monitoring, and basic attack/testing workflows.
 
 ## Lab Objectives
 - Build a virtual enterprise network from scratch
 - Configure pfSense as the main firewall and router
-- Set up Windows Server with Active Directory Domain Services
+- Set up Windows Server with Active Directory Domain Services (AD DS)
 - Connect Windows endpoints to the internal lab network
 - Forward Windows event logs to Splunk
 - Use Kali Linux for controlled security testing
 - Practice SOC analyst and blue team investigation workflows
+
+## Project Structure
+
+```text
+enterprise-security-lab/
+├── active-directory/     # Active Directory setup, domain configuration, and related documentation
+├── docs/                 # General project documentation
+├── kali/                 # Kali Linux testing notes and attack simulation documentation
+├── network-diagrams/     # Network topology diagrams and architecture visuals
+├── pfsense/              # pfSense firewall configuration and routing documentation
+├── screenshots/          # Screenshots captured during lab setup and testing
+├── splunk/               # Splunk setup, searches, dashboards, and log analysis notes
+└── README.md             # Main project overview
+```
 
 ## Lab Environment
 | Component | Purpose |
