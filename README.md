@@ -58,14 +58,17 @@ enterprise-security-lab/
 - Verified Windows event log forwarding into Splunk
 
 ## Skills Demonstrated
-- Virtualization
-- Network segmentation
-- Firewall configuration
-- Active Directory administration
-- Windows event log analysis
-- SIEM log ingestion
-- Basic threat detection
-- SOC investigation fundamentals
+
+| Skill Area | Skills Practiced |
+|---|---|
+| Virtualization | VMware Workstation, multi-VM lab design, virtual networking |
+| Network Security | pfSense firewalling, routing, gateway configuration, network segmentation |
+| Windows Administration | Windows 10 endpoint setup, Windows Server configuration, domain join |
+| Identity & Access | Active Directory Domain Services, domain authentication, centralized user management |
+| SIEM & Logging | Splunk Enterprise, Universal Forwarder, Windows event log ingestion |
+| SOC Analysis | Security event review, failed login analysis, authentication monitoring |
+| Offensive Security Awareness | Kali Linux testing, Nmap scanning, basic enumeration |
+| Documentation | Technical documentation, network topology, screenshot tracking, project structure |
 
 ## Screenshots
 Screenshots will be added as the lab progresses.
